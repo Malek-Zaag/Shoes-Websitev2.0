@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f64c72;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+}
+.partie1 img{
+    height: 4rem;
+}
+.brand{
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+    text-decoration: none;
+}
+.partie1 a{
+    text-decoration: none;
+    color: black;
+}
+.partie1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.partie2 a{
+    text-decoration: none;
+    color: black;
+}
+.partie2{
+
+    font-size: 3vw;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 1%;
+}
+.partie2 a:hover{
+
+    cursor: pointer;
+    color: blue;
+}
+@media screen and (max-width: 450px){
+    .image{
+        height: 4em;
+    }
+    .partie2{
+  
+        position: relative;
+        display: block;
+        left: 15%;
+        font-size: 4vw;
+    }
+    .navbar{
+        height: 30vw;
+    }
+    .brand{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+        
+}

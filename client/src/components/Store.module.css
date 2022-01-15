@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw ;
+    background-color: #553d67;
+    box-shadow: 10px 5px 5px #242582;
+    border-radius: 15px;
+}
+.input{
+    width: 15px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    gap: 1em;
+}
+.imagee{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%; 
+    width: 90%;
+    border-radius: 15px;
+}
+.image{
+    margin-top: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5vw;
+    
+}
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    
+}
+.input{
+    width: 4vw;
+    height: 2vw;
+}
+.cartbtn{
+    display:inline-block;
+    border-radius: 15px;
+    background-color: green;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 2vw;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.title{
+    text-align: center;
+    font-size: 5em;
+    margin: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+.abouttext{
+    margin-bottom: 3em;
+}
+
+.about{
+    border-radius: 15px;
+    background-color: darkred;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content:space-between;
+    font-size: 2em;
+    height: 8em;
+    width: 100%;
+}
+
+.contact{
+    background-color: navy;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.contactcontainer{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.contacttext{
+    font-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright{
+    margin-top: 1em;
+    text-align: center;
+    background-color: #f64c72;
+    font-family: 'Open Sans', sans-serif;
+}
